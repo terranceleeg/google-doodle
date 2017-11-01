@@ -1,12 +1,48 @@
 // Grand Central Station
 @import 'google-homepage';
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Condensed:400,700');
 
 .googlestyle{
   color: red;
   font-size: 5em;
   margin: -.5em 0 -.25em 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+}
+.char1{
+    
+    margin: 10px;
+    color: #4885ed;
+    
+}
+.char2{
+    
+   margin: 5px; 
+   color: #db3236;
+    
+}
+.char3{
+    
+   margin: 5px; 
+   color: #f4c20d    
+    
+}
+.char4{
+    
+   margin: 5px; 
+   color: #4885ed;    
+    
+}
+.char5{
+    
+   margin: 5px; 
+   color:  #3cba54;   
+    
+}
+.char6{
+    
+   margin: 5px; 
+   color: #db3236;
+    
 }
 #stage h1{
   font-size: 2em;
