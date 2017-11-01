@@ -1,15 +1,16 @@
 // Grand Central Station
-
 @import 'google-homepage';
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
 .googlestyle{
   color: red;
   font-size: 5em;
   margin: -.5em 0 -.25em 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #stage h1{
   font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
   color: white;
   position: absolute;
   top: -.25em;
