@@ -3,34 +3,70 @@
 @import 'google-homepage';
 
 
-// First Frame
-img {
-    
-    opacity: .5;
-    transform: scale(.25) rotate(0);
-    width: 40%;
-    
-    transition: transform .5s;
+.googlestyle{
+  color: red;
+  font-size: 5em;
+  margin: -.5em 0 -.25em 0;
+}
+#stage h1{
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  top: -.25em;
+  left: 3.5em;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+/* last frames */
+#stage:hover h1{
+  
+  opacity: 1;
+  
+}
+#flashingcolors{
+  -webkit-animation: flash .5s infinite;  
+  -moz-animation: flash .5s infinite;  
+  -o-animation: flash .5s infinite;  
+  animation: flash .5s infinite;
+
+}
+#movingfinger{
+  -webkit-animation: wiggle .5s infinite;  
+  -moz-animation: wiggle .5s infinite;  
+  -o-animation: wiggle .5s infinite;
+  animation: wiggle .5s infinite;
 }
 
-// Last Frame
-img:hover {
-    opacity: 1;
-    transform: scale(1.5) rotate(180deg);
-}
-
-// First Frame
-.line {
-     fill:none;
-     stroke:#8cff19;
-     stroke-width:30;
-     stroke-miterlimit:10;
+@keyframes wiggle{
+  0%{
+    transform: translate(0,0)
     
-    transition: stroke 1s;
+  }
+  100%{
+    transform: translate(1px,1px)
+    
+  }
+  
 }
 
-// Last Frame
-.line:hover {
-    stroke: red;
+@keyframes flash{
+  0%{
+    fill: maroon;
+  }
+  20%{
+    fill: green;
+  }
+  40%{
+    fill: purple
+  }
+  60%{
+    fill: cyan;
+  }
+  80%{
+    fill: white
+  }
+  100%{
+    fill: maroon;
+  }
 }
 
