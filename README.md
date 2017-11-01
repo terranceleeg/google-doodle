@@ -19,4 +19,5 @@ I would take the time to explain the holiday to you, but that would defeat the p
 ![Inspiration 1](http://img1.picturescafe.com/pc/national-lazy-day/national-lazy-day_001.jpg "domo lazy picture")
 ![Inspiration 2](http://2.bp.blogspot.com/-WXYZYPopINk/Vck2HCoNecI/AAAAAAAAEpI/9-x96oek7vk/s1600/National%2BLazy%2BDay.jpg "Hippo lazy picture")
 ## Content Doodle
+![Inspiration 2]("/img/doodleart.png")
 
